@@ -1,0 +1,27 @@
+#root {
+  margin: 0 auto;
+  padding: 0;
+}
+
+.vertical-slider-wrapper input {
+  width: 25px;
+  height: 70vh;
+  margin: 0;
+  transform: rotate(-180deg);
+}
+
+.horizontal-slider-wrapper input {
+  width: 75vw;
+  margin: 0;
+}
+
+.vertical-tabsRangeInput {
+  writing-mode: bt-lr;
+  appearance: range;
+  -webkit-appearance: slider-vertical;
+}
+
+.horizontal-tabsRangeInput {
+  writing-mode: bt-lr;
+  appearance: range;
+}
